@@ -1,4 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
-let g:netrw_dirhist_1='/afs/andrew.cmu.edu/usr6/rgandhi/public/18342_lab0_repository/conf'
-let g:netrw_dirhist_2='/afs/andrew.cmu.edu/usr6/jianwan3/hw2/queries'

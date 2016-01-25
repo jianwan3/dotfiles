@@ -417,7 +417,7 @@ autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 :command WQ wq
 :command Wq wq
 :command W w
-:command Q q
+:command -bang Q quit<bang>
 
 "More key maps
 :map <F2> :echo 'Current time is ' . strftime('%c')<CR>

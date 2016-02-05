@@ -437,3 +437,6 @@ nnoremap <C-n> :call NumberToggle()<cr>
 :au FocusLost * :set number
 :au FocusGained * :set relativenumber
 
+" Map jj as esc
+imap jj <ESC>
+

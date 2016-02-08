@@ -440,3 +440,9 @@ nnoremap <C-n> :call NumberToggle()<cr>
 " Map jj as esc
 imap jj <ESC>
 
+" Put a line under cursor
+" :set cursorline 
+
+" Set line under cursor color
+" :hi CursorLine   cterm=NONE ctermbg=black ctermfg=white guibg=darkred guifg=white
+

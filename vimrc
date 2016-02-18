@@ -441,8 +441,11 @@ nnoremap <C-n> :call NumberToggle()<cr>
 imap jj <ESC>
 
 " Put a line under cursor
-" :set cursorline 
+:set cursorline 
 
 " Set line under cursor color
 " :hi CursorLine   cterm=NONE ctermbg=black ctermfg=white guibg=darkred guifg=white
+
+" Set a error mark if exceeding 78 columns
+match ErrorMsg '\%>78v.\+'
 

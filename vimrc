@@ -414,10 +414,10 @@ map <Esc><Esc> :w<CR>
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
 "Map commonly mistakenly typed keys
-:command WQ wq
-:command Wq wq
-:command W w
-:command -bang Q quit<bang>
+:command! WQ wq
+:command! Wq wq
+:command! W w
+:command! -bang Q quit<bang>
 
 "More key maps
 :map <F2> :echo 'Current time is ' . strftime('%c')<CR>
@@ -440,12 +440,23 @@ nnoremap <C-n> :call NumberToggle()<cr>
 " Map jj as esc
 imap jj <ESC>
 
-" Put a line under cursor
-:set cursorline 
 
 " Set line under cursor color
-" :hi CursorLine   cterm=NONE ctermbg=black ctermfg=white guibg=darkred guifg=white
+" hi CursorLine cterm=NONE ctermbg=black ctermfg=white guibg=darkred guifg=white
+hi CursorLine ctermbg=black guibg=black 
+" hi CursorLine guibg=#ffffff guifg=#000000 gui=NONE ctermbg=white ctermfg=black cterm=NONE term=reverse
+
+
+" Put a line under cursor
+set cursorline!
 
 " Set a error mark if exceeding 78 columns
 match ErrorMsg '\%>78v.\+'
 
+" hi ColorColumn ctermbg=DimGray guibg=grey
+" set cc=80
+
+" Set gui font size
+set guifont=Monaco:h16
+
+set colorcolumn=79

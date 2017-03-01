@@ -57,6 +57,7 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
+source ~/.bash_profile
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -97,7 +98,8 @@ export PATH=/usr/local/smlnj/bin:$PATH
 export se="/Users/wjaaaa/11642/QryEval"
 
 # CMU cluster machine
-export jian="jianwan3@linux.andrew.cmu.edu"
+# export jian="jianwan3@linux.andrew.cmu.edu"
+export jian="jianwan3@128.2.13.133"
 
 # export env_keep="DISPLAY"
-
+echo "Be bold. What would you do if you are not afraid?\nMove fast and break things. Unless you are breaking stuff, you are not moving fast enough.\nFail harder."
